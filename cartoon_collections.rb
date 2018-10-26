@@ -10,10 +10,8 @@ end
 
 
 def summon_captain_planet(array)
-  new_array = []
-
   array.map do |word| word.capitalize!
-    new_array << "#{word}!"
+   "#{word}!"
   end
 
 end
