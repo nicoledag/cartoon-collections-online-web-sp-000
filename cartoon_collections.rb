@@ -30,10 +30,5 @@ def find_the_cheese(array)
 
    array.each {|cheese_type| cheese_type.include?(cheese_types)}
 
-   if array.include?(cheese_type)
-     return array.first
-   else
-     return nil
-   end
-     
+  
 end
