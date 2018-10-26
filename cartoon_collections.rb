@@ -32,7 +32,7 @@ def find_the_cheese(array)
 
    if array.include?(cheese_type)
      return array.first
-   else 
+   else
      return nil
    end
      
