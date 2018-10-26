@@ -1,6 +1,6 @@
 require 'pry'
 
-def roll_call_dwarves(array)
+def roll_call_dwarves(array)# code an argument here
 
 binding.pry
 end
