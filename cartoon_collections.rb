@@ -2,7 +2,11 @@
 
 def roll_call_dwarves(array)# code an argument here
 
-
+  ordered_name = []
+    array.each_with_index |name, i|
+     ordered_name << "#{i+1}. #{{name}}"
+    end
+    puts ordered_name
 end
 
 def summon_captain_planet# code an argument here
