@@ -5,7 +5,6 @@ def roll_call_dwarves(array)# code an argument here
   ordered_name = []
     array.each_with_index do |name,i|
      ordered_name << "#{i+1}. #{name}"
-     binding.pry
     end
     puts ordered_name
 end
